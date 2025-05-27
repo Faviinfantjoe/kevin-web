@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  
+}
+#top{
+    margin: 10px;
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+   
+
+
+}
+#top img {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    margin: 20px;
+}
+#top h1{
+    display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#top.logo{
+    color: rosybrown palegoldenrod pink yellow;
+}
+#top ion-icon{
+    position: relative;
+    left: 60%;
+    bottom:25px ;
+    font-size: 30px;
+    padding: 20px;
+}
