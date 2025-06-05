@@ -468,3 +468,80 @@ font-family:  "Noto Serif", serif;
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+@media only screen and (max-width: 320px) {
+    #top {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    #top h1 {
+        font-size: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #top a, #top h3 {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    #main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content1,
+    #content11,
+    #member,
+    #weekly {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px;
+        width: 90%;
+    }
+
+    #content1 img,
+    #content11 img,
+    #member img,
+    #weekly img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .glow-on-hover {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 80%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #payment {
+        margin: 30px 5%;
+        text-align: center;
+    }
+
+    #payment img {
+        width: 80%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    #payment p,
+    #payment h3 {
+        margin-left: 0;
+    }
+
+    #qr {
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    #about h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
